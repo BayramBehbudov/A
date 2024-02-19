@@ -1,0 +1,102 @@
+header div {
+    background-color: rgb(222, 170, 102);
+    color: rgb(235, 243, 241);
+    width: 189px;
+    height: fit-content;
+    margin: 0% 50%;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 15px 9px;
+    text-align: center;
+}
+
+.bimg {
+    background-image: url("./img/cat2.jpg");
+    background-color: aqua;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.bimg2 {
+    background-image: url("./img/dog.jpg");
+    background-color: aqua;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.bimg>h2{
+    background-color: #ff8604;
+    float: right;
+    width: 200px;
+    height: fit-content;
+    font-size: 50px;
+    border-radius: 15px 0px 0px 15px;
+    font-style: oblique;
+}
+
+.lorem {
+    margin: 0px auto;
+    background-color: hsl(34, 100%, 90%);
+    border-radius: 15px;
+    color: #d07b21;
+    padding: 0px 22px;
+    text-align: justify;
+
+}
+
+.loremh2{
+    text-align: center;
+}
+.bimg2>h2{
+    color: #ff8604;
+    text-align: left;
+    padding-left: 109px;
+    padding-top: 104px;
+    font-size: 50px;
+}
+
+.bimg3 {
+    background-image: url("./img/fox.jpg");
+    background-color: aqua;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.bimg3>h2{
+    text-align: right;
+    padding-right: 109px;
+    padding-top: 104px;
+    font-size: 50px;
+    color: #2f14bc;
+}
+
+main>div:first-child>div{
+
+    background-color: #94d222;
+    float: right;
+    border-radius: 20px;
+    margin-right: 25px;
+    padding-right: 15px;
+}
+ul{
+    list-style: none;
+}
+
+main span {
+    background-color: #ff8604;
+    float: right;
+    width: 200px;
+    height: fit-content;
+    font-size: 50px;
+    border-radius: 10px 0px 0px 10px;
+    font-style: oblique;
+}
